@@ -1,3 +1,25 @@
+# ESP-IDF Build output
+build/
+managed_components/
+
+# ESP-IDF generated configuration
+sdkconfig
+sdkconfig.old
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+.cache/
+
+# various editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Prerequisites
 *.d
 

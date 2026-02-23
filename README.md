@@ -60,6 +60,12 @@ idf.py -p /dev/ttyUSB0 flash monitor
 idf.py menuconfig
 ```
 
+### Memory size
+
+```bash
+idf.py size
+```
+
 ## Documentation & References
 
 ### ESP32 Technical Documentation
@@ -92,7 +98,3 @@ project_name/
 │   └── main.c
 └── sdkconfig
 ```
-
-## License
-
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.

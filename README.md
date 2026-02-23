@@ -93,8 +93,7 @@ Each tutorial exercise is implemented as a separate ESP-IDF project. Projects fo
 ```
 project_name/
 ├── CMakeLists.txt
-├── main/
-│   ├── CMakeLists.txt
-│   └── main.c
-└── sdkconfig
+└── main/
+    ├── CMakeLists.txt
+    └── main.c
 ```

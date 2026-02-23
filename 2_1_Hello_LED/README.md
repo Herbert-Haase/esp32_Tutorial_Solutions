@@ -1,9 +1,5 @@
 exercise: https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/arduino/basic_projects/ar_blinking_led.html
 
-```bash
-idf.py size
-
-```
 
 ```text
                              Memory Type Usage Summary                              

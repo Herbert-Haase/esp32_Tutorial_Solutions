@@ -59,6 +59,12 @@ idf.py -p /dev/ttyUSB0 flash monitor
 idf.py menuconfig
 ```
 
+### Memory size
+
+```bash
+idf.py size
+```
+
 ## Documentation & References
 
 ### ESP32 Technical Documentation
@@ -86,12 +92,7 @@ Each tutorial exercise is implemented as a separate ESP-IDF project. Projects fo
 ```
 project_name/
 ├── CMakeLists.txt
-├── main/
-│   ├── CMakeLists.txt
-│   └── main.c
-└── sdkconfig
+└── main/
+    ├── CMakeLists.txt
+    └── main.c
 ```
-
-## License
-
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.

@@ -1,9 +1,7 @@
 exercise: https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/arduino/basic_projects/ar_blinking_led.html
 
-```bash
-idf.py size
-```
 
+```text
                              Memory Type Usage Summary                              
 ┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
 ┃ Memory Type/Section   ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
@@ -24,5 +22,6 @@ idf.py size
 │    .rtc_slow_reserved │           24 │     0.29 │                │               │
 └───────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
 Total image size: 176225 bytes (.bin may be padded larger)
+```
 
 

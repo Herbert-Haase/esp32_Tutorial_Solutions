@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - "-D__esp32__"
+    - "-I/home/herbert/esp/esp-idf/components/newlib/platform_include"
+  Remove:
+    - -mlongcalls
+    - -fno-tree-switch-conversion
+    - -fstrict-volatile-bitfields
+    - -fno-shrink-wrap

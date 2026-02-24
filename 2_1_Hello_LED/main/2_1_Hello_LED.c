@@ -7,15 +7,12 @@ void app_main(void) {
   gpio_reset_pin(LED_PIN);
   gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
   bool led_state = false;
+  esp_sleep_enable_timer_wakeup(500000);
 
   while (1) {
     led_state = !led_state;
     gpio_set_level(LED_PIN, led_state);
 
-    esp_sleep_enable_timer_wakeup(500000);
-
-    // Light Sleep (CPU halts, clocks gate, power drops)
     esp_light_sleep_start();
   }
 }
-

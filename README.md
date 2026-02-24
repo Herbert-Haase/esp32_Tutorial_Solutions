@@ -7,7 +7,6 @@ Solutions for the [SunFounder ESP32 Starter Kit Tutorial](https://docs.sunfounde
 The original tutorial uses Arduino IDE, which produces pseudo-code-like syntax and results in a significant memory footprint. For example, a simple "blinking LED" example consumes:
 - **268,611 bytes** of program storage space
 - **20,792 bytes** of dynamic memory
-- Uses busy-waiting instead of proper timing mechanisms
 
 By using ESP-IDF instead, this repository demonstrates how to:
 - Write proper C code with full hardware control

@@ -1,20 +1,6 @@
-# ESP32 Tutorial Solutions (ESP-IDF)
+# Learning ESP32 Development
 
-Solutions for the [SunFounder ESP32 Starter Kit Tutorial](https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/index.html) written in C using the [ESP-IDF](https://github.com/espressif/esp-idf) framework.
-
-## Motivation
-
-The original tutorial uses Arduino IDE, which produces pseudo-code-like syntax and results in a significant memory footprint. For example, a simple "blinking LED" example consumes:
-- **268,611 bytes** of program storage space
-- **20,792 bytes** of dynamic memory
-
-By using ESP-IDF instead, this repository demonstrates how to:
-- Write proper C code with full hardware control
-- Achieve significantly smaller memory footprint
-- Utilize FreeRTOS features for efficient task scheduling
-- Gain deeper understanding of ESP32 internals
-
-> **Note:** This repository primarily serves as personal documentation and learning reference.
+This repository is dedicated to learning ESP32 development through the official ESP-IDF documentation and the book "Programming the ESP32 in C using the Espressif IDF."
 
 ## Prerequisites
 
@@ -85,14 +71,8 @@ idf.py size
 |----------|-------------|
 | [SunFounder ESP32 Starter Kit](https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/index.html) | Original tutorial being implemented |
 
-## Project Structure
+### Specs
 
-Each tutorial exercise is implemented as a separate ESP-IDF project. Projects follow the standard ESP-IDF structure:
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 304988 bytes
 
-```
-project_name/
-├── CMakeLists.txt
-└── main/
-    ├── CMakeLists.txt
-    └── main.c
-```
